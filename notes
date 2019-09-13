@@ -1,0 +1,9 @@
+# To built the Docker image
+$ docker build .
+
+# To build the container
+$ docker-compose build
+
+# To run a command on a service
+$ docker-compose run [service-name] sh -c "[command]"
+# Example: $ docker-compose run app sh -c "django-admin.py startproject app ."
